@@ -11,6 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import steps.PageInitializers;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,13 +19,13 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 
-public class CommonMethods {
+public class CommonMethods extends PageInitializers {
     public static WebDriver driver;
     static WebElement element;
     static Select select = new Select(element);
 
 
-    public static void openBrowserAndNavigateToUrl() {
+    public static void openBrowserAndNavigateToURL() {
         ConfigReader.readProperties(Constants.CONFIG_READER_PATH);
         switch (ConfigReader.getPropertyValue("browser")) {
             case "chrome":

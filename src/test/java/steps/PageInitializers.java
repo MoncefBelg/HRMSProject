@@ -1,11 +1,11 @@
 package steps;
 
 public class PageInitializers {
-    public static LoginPage loginPage;
-    public static DashboardPage dashboardPage;
+    //public static LoginPage loginPage;
+    //public static DashboardPage dashboardPage;
 
-    public static void initializePageObjects(){
-        loginPage = new LoginPage();
-        dashboardPage = new DashboardPage();
+    public static void initializePageObject(){
+        //loginPage = new LoginPage();
+        //dashboardPage = new DashboardPage();
     }
 }

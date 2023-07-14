@@ -27,7 +27,6 @@ public class LoginSteps extends CommonMethods {
         Log.info("Username has been entered");
         sendText(ConfigReader.getPropertyValue("password"), loginPage.passwordField);
         Log.info("Password has been entered");
-
     }
 
     @When("user clicks on login button")

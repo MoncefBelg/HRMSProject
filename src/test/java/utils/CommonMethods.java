@@ -22,8 +22,7 @@ import java.util.Date;
 public class CommonMethods extends PageInitializers {
     public static WebDriver driver;
     static WebElement element;
-    static Select select = new Select(element);
-
+    static Select select;
 
     public static void openBrowserAndNavigateToURL() {
         ConfigReader.readProperties(Constants.CONFIG_READER_PATH);
@@ -70,24 +69,27 @@ public class CommonMethods extends PageInitializers {
     }
 
     public static void singleSelectFromDropdownsUsingText(String text) {
-
+        select = new Select(element);
         select.selectByVisibleText(text);
     }
 
     public static void singleDeselectFromDropdownsUsingText(String text) {
-
+        select = new Select(element);
         select.deselectByVisibleText(text);
     }
 
     public static void singleSelectFromDropdownsUsingValue(String value) {
+        select = new Select(element);
         select.selectByValue(value);
     }
 
     public static void singleDeselectFromDropdownsUsingValue(String value) {
+        select = new Select(element);
         select.deselectByValue(value);
     }
 
     public static void singleSelectFromDropdownsUsingIndex(int index) {
+        select = new Select(element);
         select.selectByIndex(index);
     }
 
@@ -106,7 +108,7 @@ public class CommonMethods extends PageInitializers {
         byte[] pictures = takesScreenshot.getScreenshotAs(OutputType.BYTES);
         File screenshot = takesScreenshot.getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(screenshot, new File(Constants.SCREENSHOT_FILE_PATH + fileName + " " + getTimeStamp("YYYY/MM/DD/HH/mm/ss") + ".png"));
+            FileUtils.copyFile(screenshot, new File(Constants.SCREENSHOT_FILE_PATH + fileName + " " + getTimeStamp("YYYY-MM-dd-HH-mm-ss") + ".png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

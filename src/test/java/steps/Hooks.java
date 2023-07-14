@@ -1,8 +1,9 @@
 package steps;
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import org.junit.After;
-import org.junit.Before;
+
 import utils.CommonMethods;
 public class Hooks extends CommonMethods {
 
@@ -19,7 +20,7 @@ public class Hooks extends CommonMethods {
         }else {
             picture = screenShot("passed/" + scenario.getName());
         }
-        picture = screenShot(scenario.getName());
+        //picture = screenShot(scenario.getName());
 
         scenario.attach(picture, "image/png", scenario.getName());
 

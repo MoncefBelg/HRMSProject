@@ -37,7 +37,7 @@ public class LoginSteps extends CommonMethods {
 
     @Then("user is successfully logged in")
     public void user_is_successfully_logged_in_the_application() {
-
+        System.out.println("The user has logged in successfully");
     }
 
 }

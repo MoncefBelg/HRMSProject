@@ -39,4 +39,19 @@ public class LoginSteps extends CommonMethods {
         System.out.println("The user has logged in successfully");
     }
 
+    @Then("error message is displayed")
+    public void error_message_is_displayed() {
+
+    }
+
+    @When("user enters {string} and {string} and verifying the {string} for the combinations")
+    public void user_enters_and_and_verifying_the_for_the_combinations
+            (String username, String password, String errorMessageExpected) {
+        sendText(username, loginPage.usernameField);
+        sendText(password, loginPage.passwordField);
+        click(loginPage.loginButton);
+        String errorMessageActual = loginPage.errorMessageField.getText();
+
+    }
+
 }

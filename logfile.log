@@ -566,3 +566,233 @@
 2023-07-15 06:47:13,258 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
 2023-07-15 06:47:13,258 INFO  [Log] XXXXXXXXXXXXXXXX 
 2023-07-15 06:47:13,258 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 06:54:56,775 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 06:54:56,775 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 06:54:56,775 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 06:54:56,775 INFO  [Log] ======================================================================================== 
+2023-07-15 06:54:56,777 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 06:54:56,777 INFO  [Log] ======================================================================================== 
+2023-07-15 06:54:56,958 INFO  [Log] Username has been entered 
+2023-07-15 06:54:57,040 INFO  [Log] Password has been entered 
+2023-07-15 06:54:58,737 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 06:54:58,737 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 06:54:58,737 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 06:54:58,737 INFO  [Log] ======================================================================================== 
+2023-07-15 06:54:58,737 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 06:54:58,737 INFO  [Log] ======================================================================================== 
+2023-07-15 06:55:09,241 INFO  [Log] Admin navigates to Admin module 
+2023-07-15 06:55:09,321 INFO  [Log] Admin navigates to Qualifications menu 
+2023-07-15 06:55:09,964 INFO  [Log] Admin navigates to Language page 
+2023-07-15 06:55:10,066 INFO  [Log] Admin clicks on add language button 
+2023-07-15 06:55:10,151 INFO  [Log] Admin enters the intended language in language name field 
+2023-07-15 06:55:10,973 INFO  [Log] Admin clicks on save button 
+2023-07-15 06:55:11,644 INFO  [Log] ======================================================================================== 
+2023-07-15 06:55:11,644 INFO  [Log] -----------*<( The end of test case for Admin Add Language  )>*----------- 
+2023-07-15 06:55:11,644 INFO  [Log] -----------*<( The End of Test Case  )>*----------- 
+2023-07-15 06:55:11,644 INFO  [Log] ======================================================================================== 
+2023-07-15 06:55:11,644 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 06:55:11,644 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 06:55:11,644 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:41:18,806 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:41:18,807 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:41:18,807 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:41:18,807 INFO  [Log] ======================================================================================== 
+2023-07-15 07:41:18,810 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 07:41:18,810 INFO  [Log] ======================================================================================== 
+2023-07-15 07:41:19,120 INFO  [Log] Username has been entered 
+2023-07-15 07:41:19,243 INFO  [Log] Password has been entered 
+2023-07-15 07:41:21,173 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:41:21,174 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:41:21,174 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:41:21,174 INFO  [Log] ======================================================================================== 
+2023-07-15 07:41:21,174 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 07:41:21,174 INFO  [Log] ======================================================================================== 
+2023-07-15 07:41:31,957 INFO  [Log] Admin navigates to Admin module 
+2023-07-15 07:41:32,061 INFO  [Log] Admin navigates to Qualifications menu 
+2023-07-15 07:41:33,016 INFO  [Log] Admin navigates to Language page 
+2023-07-15 07:41:33,452 INFO  [Log] Admin clicks on add language button 
+2023-07-15 07:41:33,703 INFO  [Log] Admin enters the intended language in language name field 
+2023-07-15 07:41:34,579 INFO  [Log] Admin clicks on save button 
+2023-07-15 07:41:34,635 INFO  [Log] gather data from the language column 
+2023-07-15 07:41:35,625 INFO  [Log] Verifies if language is added or already exists 
+2023-07-15 07:41:35,625 INFO  [Log] The language is added!!!!! 
+2023-07-15 07:41:35,625 INFO  [Log] ======================================================================================== 
+2023-07-15 07:41:35,626 INFO  [Log] -----------*<( The end of test case for Admin Add Language  )>*----------- 
+2023-07-15 07:41:35,626 INFO  [Log] -----------*<( The End of Test Case  )>*----------- 
+2023-07-15 07:41:35,626 INFO  [Log] ======================================================================================== 
+2023-07-15 07:41:35,626 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:41:35,626 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:41:35,626 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:46:26,998 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:46:26,999 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:46:26,999 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:46:26,999 INFO  [Log] ======================================================================================== 
+2023-07-15 07:46:27,000 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 07:46:27,000 INFO  [Log] ======================================================================================== 
+2023-07-15 07:46:27,140 INFO  [Log] Username has been entered 
+2023-07-15 07:46:27,227 INFO  [Log] Password has been entered 
+2023-07-15 07:46:29,034 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:46:29,034 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:46:29,034 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:46:29,034 INFO  [Log] ======================================================================================== 
+2023-07-15 07:46:29,034 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 07:46:29,034 INFO  [Log] ======================================================================================== 
+2023-07-15 07:46:39,901 INFO  [Log] Admin navigates to Admin module 
+2023-07-15 07:46:39,995 INFO  [Log] Admin navigates to Qualifications menu 
+2023-07-15 07:46:40,944 INFO  [Log] Admin navigates to Language page 
+2023-07-15 07:46:41,032 INFO  [Log] Admin clicks on add language button 
+2023-07-15 07:46:41,116 INFO  [Log] Admin enters the intended language in language name field 
+2023-07-15 07:46:41,939 INFO  [Log] Admin clicks on save button 
+2023-07-15 07:46:41,970 INFO  [Log] gather data from the language column 
+2023-07-15 07:46:42,595 INFO  [Log] Verifies if language is added or already exists 
+2023-07-15 07:46:42,595 INFO  [Log] The language is added!!!!! 
+2023-07-15 07:46:42,596 INFO  [Log] ======================================================================================== 
+2023-07-15 07:46:42,596 INFO  [Log] -----------*<( The end of test case for Admin Add Language  )>*----------- 
+2023-07-15 07:46:42,596 INFO  [Log] -----------*<( The End of Test Case  )>*----------- 
+2023-07-15 07:46:42,597 INFO  [Log] ======================================================================================== 
+2023-07-15 07:46:42,597 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:46:42,597 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:46:42,597 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:47:34,518 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:47:34,518 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:47:34,518 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:47:34,518 INFO  [Log] ======================================================================================== 
+2023-07-15 07:47:34,519 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 07:47:34,519 INFO  [Log] ======================================================================================== 
+2023-07-15 07:47:34,637 INFO  [Log] Username has been entered 
+2023-07-15 07:47:34,729 INFO  [Log] Password has been entered 
+2023-07-15 07:47:36,370 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:47:36,370 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:47:36,370 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:47:36,370 INFO  [Log] ======================================================================================== 
+2023-07-15 07:47:36,370 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 07:47:36,370 INFO  [Log] ======================================================================================== 
+2023-07-15 07:47:49,858 INFO  [Log] Admin navigates to Admin module 
+2023-07-15 07:47:49,943 INFO  [Log] Admin navigates to Qualifications menu 
+2023-07-15 07:47:50,644 INFO  [Log] Admin navigates to Language page 
+2023-07-15 07:47:50,743 INFO  [Log] Admin clicks on add language button 
+2023-07-15 07:47:50,826 INFO  [Log] Admin enters the intended language in language name field 
+2023-07-15 07:47:51,704 INFO  [Log] Admin clicks on save button 
+2023-07-15 07:47:51,731 INFO  [Log] gather data from the language column 
+2023-07-15 07:47:52,358 INFO  [Log] Verifies if language is added or already exists 
+2023-07-15 07:47:52,358 INFO  [Log] The language is added!!!!! 
+2023-07-15 07:48:18,683 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:48:18,683 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:48:18,683 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:48:18,683 INFO  [Log] ======================================================================================== 
+2023-07-15 07:48:18,685 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 07:48:18,685 INFO  [Log] ======================================================================================== 
+2023-07-15 07:48:18,783 INFO  [Log] Username has been entered 
+2023-07-15 07:48:18,860 INFO  [Log] Password has been entered 
+2023-07-15 07:48:20,531 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:48:20,531 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:48:20,531 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:48:20,531 INFO  [Log] ======================================================================================== 
+2023-07-15 07:48:20,531 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 07:48:20,531 INFO  [Log] ======================================================================================== 
+2023-07-15 07:48:30,796 INFO  [Log] Admin navigates to Admin module 
+2023-07-15 07:48:30,889 INFO  [Log] Admin navigates to Qualifications menu 
+2023-07-15 07:48:31,798 INFO  [Log] Admin navigates to Language page 
+2023-07-15 07:48:31,897 INFO  [Log] Admin clicks on add language button 
+2023-07-15 07:48:31,974 INFO  [Log] Admin enters the intended language in language name field 
+2023-07-15 07:48:32,849 INFO  [Log] Admin clicks on save button 
+2023-07-15 07:48:32,878 INFO  [Log] gather data from the language column 
+2023-07-15 07:48:33,536 INFO  [Log] Verifies if language is added or already exists 
+2023-07-15 07:48:33,537 INFO  [Log] The language is added!!!!! 
+2023-07-15 07:48:33,540 INFO  [Log] ======================================================================================== 
+2023-07-15 07:48:33,540 INFO  [Log] -----------*<( The end of test case for Admin Add Language  )>*----------- 
+2023-07-15 07:48:33,540 INFO  [Log] -----------*<( The End of Test Case  )>*----------- 
+2023-07-15 07:48:33,540 INFO  [Log] ======================================================================================== 
+2023-07-15 07:48:33,540 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:48:33,540 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:48:33,540 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:49:01,742 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:49:01,743 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:49:01,743 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:49:01,743 INFO  [Log] ======================================================================================== 
+2023-07-15 07:49:01,745 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 07:49:01,745 INFO  [Log] ======================================================================================== 
+2023-07-15 07:49:01,864 INFO  [Log] Username has been entered 
+2023-07-15 07:49:01,950 INFO  [Log] Password has been entered 
+2023-07-15 07:49:03,832 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 07:49:03,832 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:49:03,832 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:49:03,832 INFO  [Log] ======================================================================================== 
+2023-07-15 07:49:03,832 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 07:49:03,832 INFO  [Log] ======================================================================================== 
+2023-07-15 07:49:14,128 INFO  [Log] Admin navigates to Admin module 
+2023-07-15 07:49:14,213 INFO  [Log] Admin navigates to Qualifications menu 
+2023-07-15 07:49:16,019 INFO  [Log] Admin navigates to Language page 
+2023-07-15 07:49:16,107 INFO  [Log] Admin clicks on add language button 
+2023-07-15 07:49:16,185 INFO  [Log] Admin enters the intended language in language name field 
+2023-07-15 07:49:17,414 INFO  [Log] Admin clicks on save button 
+2023-07-15 07:49:17,443 INFO  [Log] gather data from the language column 
+2023-07-15 07:49:18,095 INFO  [Log] Verifies if language is added or already exists 
+2023-07-15 07:49:18,095 INFO  [Log] The language is added!!!!! 
+2023-07-15 07:49:18,096 INFO  [Log] ======================================================================================== 
+2023-07-15 07:49:18,097 INFO  [Log] -----------*<( The end of test case for Admin Add Language  )>*----------- 
+2023-07-15 07:49:18,097 INFO  [Log] -----------*<( The End of Test Case  )>*----------- 
+2023-07-15 07:49:18,097 INFO  [Log] ======================================================================================== 
+2023-07-15 07:49:18,097 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 07:49:18,097 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 07:49:18,097 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 08:04:23,438 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 08:04:23,438 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 08:04:23,438 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 08:04:23,438 INFO  [Log] ======================================================================================== 
+2023-07-15 08:04:23,440 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 08:04:23,440 INFO  [Log] ======================================================================================== 
+2023-07-15 08:04:23,561 INFO  [Log] Username has been entered 
+2023-07-15 08:04:23,655 INFO  [Log] Password has been entered 
+2023-07-15 08:04:25,560 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 08:04:25,560 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 08:04:25,560 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 08:04:25,560 INFO  [Log] ======================================================================================== 
+2023-07-15 08:04:25,560 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 08:04:25,560 INFO  [Log] ======================================================================================== 
+2023-07-15 08:04:36,010 INFO  [Log] Admin navigates to Admin module 
+2023-07-15 08:04:36,099 INFO  [Log] Admin navigates to Qualifications menu 
+2023-07-15 08:04:36,723 INFO  [Log] Admin navigates to Language page 
+2023-07-15 08:04:36,850 INFO  [Log] Admin clicks on add language button 
+2023-07-15 08:04:36,922 INFO  [Log] Admin enters the intended language in language name field 
+2023-07-15 08:04:37,921 INFO  [Log] Admin clicks on save button 
+2023-07-15 08:04:37,945 INFO  [Log] gather data from the language column 
+2023-07-15 08:04:38,577 INFO  [Log] Verifies if language is added or already exists 
+2023-07-15 08:04:38,577 INFO  [Log] The language is added!!!!! 
+2023-07-15 08:04:38,579 INFO  [Log] ======================================================================================== 
+2023-07-15 08:04:38,579 INFO  [Log] -----------*<( The end of test case for Admin Add Language  )>*----------- 
+2023-07-15 08:04:38,579 INFO  [Log] -----------*<( The End of Test Case  )>*----------- 
+2023-07-15 08:04:38,579 INFO  [Log] ======================================================================================== 
+2023-07-15 08:04:38,579 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 08:04:38,579 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 08:04:38,579 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 08:09:02,247 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 08:09:02,248 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 08:09:02,248 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 08:09:02,248 INFO  [Log] ======================================================================================== 
+2023-07-15 08:09:02,250 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 08:09:02,250 INFO  [Log] ======================================================================================== 
+2023-07-15 08:09:02,389 INFO  [Log] Username has been entered 
+2023-07-15 08:09:02,492 INFO  [Log] Password has been entered 
+2023-07-15 08:09:04,348 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 08:09:04,349 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 08:09:04,349 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 08:09:04,349 INFO  [Log] ======================================================================================== 
+2023-07-15 08:09:04,349 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 08:09:04,349 INFO  [Log] ======================================================================================== 
+2023-07-15 08:09:19,306 INFO  [Log] Admin navigates to Admin module 
+2023-07-15 08:09:19,428 INFO  [Log] Admin navigates to Qualifications menu 
+2023-07-15 08:09:20,983 INFO  [Log] Admin navigates to Language page 
+2023-07-15 08:09:21,340 INFO  [Log] Admin clicks on add language button 
+2023-07-15 08:09:21,486 INFO  [Log] Admin enters the intended language in language name field 
+2023-07-15 08:09:22,702 INFO  [Log] Admin clicks on save button 
+2023-07-15 08:09:22,738 INFO  [Log] gather data from the language column 
+2023-07-15 08:09:23,708 INFO  [Log] Verifies if language is added or already exists 
+2023-07-15 08:09:23,708 INFO  [Log] The language is added!!!!! 
+2023-07-15 08:09:23,710 INFO  [Log] ======================================================================================== 
+2023-07-15 08:09:23,711 INFO  [Log] -----------*<( Admin Add Language  )>*----------- 
+2023-07-15 08:09:23,711 INFO  [Log] -----------*<( The End of Test Case  )>*----------- 
+2023-07-15 08:09:23,711 INFO  [Log] ======================================================================================== 
+2023-07-15 08:09:23,711 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 08:09:23,711 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 08:09:23,711 INFO  [Log] XXXXXXXXXXX 

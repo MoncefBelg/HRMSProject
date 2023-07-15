@@ -24,6 +24,6 @@ public class Hooks extends CommonMethods {
 
         scenario.attach(picture, "image/png", scenario.getName());
 
-        closeBrowser();
+        //closeBrowser();
     }
 }

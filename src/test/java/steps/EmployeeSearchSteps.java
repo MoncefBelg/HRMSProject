@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.CommonMethods;
+import utils.ConfigReader;
 import utils.Log;
 
 import java.time.Duration;
@@ -17,7 +18,7 @@ public class EmployeeSearchSteps extends CommonMethods {
     @When("user clicks on PIM option and Employee list option")
     public void user_clicks_on_pim_option_and_employee_list_option() {
         DOMConfigurator.configure("log4j.xml");
-        Log.startTestCase("Start test case for Admin Add Language");
+        Log.startTestCase("Start test case for Search Employee");
         click(dashboardPage.pimOption);
         click(dashboardPage.employerListOption);
         Log.info("Admin navigates to Employee List");
@@ -26,7 +27,7 @@ public class EmployeeSearchSteps extends CommonMethods {
 
     @When("user enters valid employee id")
     public void user_enters_valid_employee_id() {
-       sendText("39793833", employeeSearchPage.idTextField);
+       sendText(ConfigReader.getPropertyValue("memberid"), employeeSearchPage.idTextField);
         Log.info("Admin search an employee by id");
     }
 
@@ -39,7 +40,7 @@ public class EmployeeSearchSteps extends CommonMethods {
 
     @When("user enters valid employee name in name text box")
     public void user_enters_valid_employee_name_in_name_text_box() {
-        sendText("adam ms", employeeSearchPage.nameTextField);
+        sendText(ConfigReader.getPropertyValue("membername"), employeeSearchPage.nameTextField);
 //        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 //        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("searchBtn")));
         Log.info("Admin search an employee by name");
@@ -52,7 +53,7 @@ public class EmployeeSearchSteps extends CommonMethods {
 
     @When("user enters invalid employee id in idtext box")
     public void user_enters_invalid_employee_id_in_idtext_box() {
-        sendText("hfvybkhkhku", employeeSearchPage.idTextField);
+        sendText(ConfigReader.getPropertyValue("invalidid"), employeeSearchPage.idTextField);
         Log.info("Admin search an employee by an invalid id");
     }
 

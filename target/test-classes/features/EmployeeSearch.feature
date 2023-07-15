@@ -7,19 +7,19 @@ Feature: Search an employee
     Then user is successfully logged in
     When user clicks on PIM option and Employee list option
 
-  @smoke @sprint2
+  @smoke @background
   Scenario: Search employee by name
     And user enters valid employee name in name text box
     And user clicks on search button
     Then user is able to see employee information
 
-  @smoke @sprint2
+  @sprint2 @background
   Scenario: Search employee by id
     And user enters valid employee id
     And user clicks on search button
     Then user is able to see employee information
 
-  @negative @smoke @sprint2
+  @negative @background
   Scenario: No records found
     And user enters invalid employee id in idtext box
     And user clicks on search button

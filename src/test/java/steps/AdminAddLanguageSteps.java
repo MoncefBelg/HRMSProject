@@ -35,8 +35,8 @@ public class AdminAddLanguageSteps extends CommonMethods {
     public void user_can_add_any_language() {
         click(aQualificationLanguagePage.addLanguageButton);
         Log.info("Admin clicks on add language button");
-
-        sendText(ConfigReader.getPropertyValue("language"),aQualificationLanguagePage.languageField);
+        String dynamicLanguage = ConfigReader.getPropertyValue("language")+ getTimeStamp("HHmmss");
+        sendText(dynamicLanguage,aQualificationLanguagePage.languageField);
         Log.info("Admin enters the intended language in language name field");
 
         click(aQualificationLanguagePage.saveLanguageButton);
@@ -52,7 +52,7 @@ public class AdminAddLanguageSteps extends CommonMethods {
 
         for(int i=0;i<allLanguages.size();i++){
             String language = allLanguages.get(i).getText();
-            if(language.equals(ConfigReader.getPropertyValue("language"))){
+            if(language.equals(dynamicLanguage)){
                 expectMsg="The language is added!!!!!";
                 isAdded=true;
             }

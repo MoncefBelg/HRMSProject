@@ -40,3 +40,116 @@
 2023-07-15 13:30:02,532 INFO  [Log] ======================================================================================== 
 2023-07-15 13:30:02,823 INFO  [Log] Username has been entered 
 2023-07-15 13:30:03,029 INFO  [Log] Password has been entered 
+2023-07-15 13:30:05,566 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:30:05,568 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:30:05,568 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:30:05,568 INFO  [Log] ======================================================================================== 
+2023-07-15 13:30:05,568 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 13:30:05,568 INFO  [Log] ======================================================================================== 
+2023-07-15 13:30:19,811 INFO  [Log] Admin navigates to Employee List 
+2023-07-15 13:30:20,204 INFO  [Log] Admin search an employee by an invalid id 
+2023-07-15 13:30:26,134 INFO  [Log] Admin clicks on search button 
+2023-07-15 13:30:26,275 INFO  [Log] Admin request for a 'no records found' message 
+2023-07-15 13:34:45,844 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:34:45,844 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:34:45,844 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:34:45,844 INFO  [Log] ======================================================================================== 
+2023-07-15 13:34:45,846 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 13:34:45,846 INFO  [Log] ======================================================================================== 
+2023-07-15 13:34:46,095 INFO  [Log] Username has been entered 
+2023-07-15 13:34:46,257 INFO  [Log] Password has been entered 
+2023-07-15 13:34:48,484 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:34:48,484 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:34:48,484 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:34:48,485 INFO  [Log] ======================================================================================== 
+2023-07-15 13:34:48,485 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 13:34:48,485 INFO  [Log] ======================================================================================== 
+2023-07-15 13:35:02,765 INFO  [Log] Admin navigates to Employee List 
+2023-07-15 13:35:03,137 INFO  [Log] Admin search an employee by name 
+2023-07-15 13:35:10,610 INFO  [Log] Admin clicks on search button 
+2023-07-15 13:35:16,467 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:35:16,468 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:35:16,468 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:35:16,468 INFO  [Log] ======================================================================================== 
+2023-07-15 13:35:16,468 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 13:35:16,468 INFO  [Log] ======================================================================================== 
+2023-07-15 13:35:16,802 INFO  [Log] Username has been entered 
+2023-07-15 13:35:17,051 INFO  [Log] Password has been entered 
+2023-07-15 13:35:19,311 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:35:19,311 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:35:19,311 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:35:19,311 INFO  [Log] ======================================================================================== 
+2023-07-15 13:35:19,311 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 13:35:19,312 INFO  [Log] ======================================================================================== 
+2023-07-15 13:35:34,664 INFO  [Log] Admin navigates to Employee List 
+2023-07-15 13:35:35,080 INFO  [Log] Admin search an employee by id 
+2023-07-15 13:35:37,194 INFO  [Log] Admin clicks on search button 
+2023-07-15 13:35:42,442 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:35:42,443 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:35:42,443 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:35:42,443 INFO  [Log] ======================================================================================== 
+2023-07-15 13:35:42,443 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 13:35:42,443 INFO  [Log] ======================================================================================== 
+2023-07-15 13:35:42,749 INFO  [Log] Username has been entered 
+2023-07-15 13:35:42,904 INFO  [Log] Password has been entered 
+2023-07-15 13:35:45,075 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:35:45,076 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:35:45,076 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:35:45,076 INFO  [Log] ======================================================================================== 
+2023-07-15 13:35:45,076 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 13:35:45,076 INFO  [Log] ======================================================================================== 
+2023-07-15 13:35:59,620 INFO  [Log] Admin navigates to Employee List 
+2023-07-15 13:35:59,857 INFO  [Log] Admin search an employee by an invalid id 
+2023-07-15 13:36:06,017 INFO  [Log] Admin clicks on search button 
+2023-07-15 13:46:20,711 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:46:20,711 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:46:20,711 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:46:20,711 INFO  [Log] ======================================================================================== 
+2023-07-15 13:46:20,713 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 13:46:20,713 INFO  [Log] ======================================================================================== 
+2023-07-15 13:46:20,885 INFO  [Log] Username has been entered 
+2023-07-15 13:46:21,039 INFO  [Log] Password has been entered 
+2023-07-15 13:46:23,287 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:46:23,288 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:46:23,288 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:46:23,288 INFO  [Log] ======================================================================================== 
+2023-07-15 13:46:23,288 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 13:46:23,289 INFO  [Log] ======================================================================================== 
+2023-07-15 13:46:38,318 INFO  [Log] Admin navigates to Employee List 
+2023-07-15 13:46:38,611 INFO  [Log] Admin search an employee by name 
+2023-07-15 13:46:45,868 INFO  [Log] Admin clicks on search button 
+2023-07-15 13:46:50,937 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:46:50,938 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:46:50,938 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:46:50,938 INFO  [Log] ======================================================================================== 
+2023-07-15 13:46:50,938 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 13:46:50,938 INFO  [Log] ======================================================================================== 
+2023-07-15 13:46:51,248 INFO  [Log] Username has been entered 
+2023-07-15 13:46:51,533 INFO  [Log] Password has been entered 
+2023-07-15 13:46:53,845 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:46:53,845 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:46:53,845 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:46:53,845 INFO  [Log] ======================================================================================== 
+2023-07-15 13:46:53,845 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 13:46:53,846 INFO  [Log] ======================================================================================== 
+2023-07-15 13:47:08,777 INFO  [Log] Admin navigates to Employee List 
+2023-07-15 13:47:09,148 INFO  [Log] Admin search an employee by id 
+2023-07-15 13:47:15,038 INFO  [Log] Admin clicks on search button 
+2023-07-15 13:47:20,398 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:47:20,399 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:47:20,399 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:47:20,399 INFO  [Log] ======================================================================================== 
+2023-07-15 13:47:20,399 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 13:47:20,399 INFO  [Log] ======================================================================================== 
+2023-07-15 13:47:20,743 INFO  [Log] Username has been entered 
+2023-07-15 13:47:20,989 INFO  [Log] Password has been entered 
+2023-07-15 13:47:23,248 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 13:47:23,248 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 13:47:23,248 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 13:47:23,248 INFO  [Log] ======================================================================================== 
+2023-07-15 13:47:23,249 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 13:47:23,249 INFO  [Log] ======================================================================================== 
+2023-07-15 13:47:38,161 INFO  [Log] Admin navigates to Employee List 
+2023-07-15 13:47:38,603 INFO  [Log] Admin search an employee by an invalid id 
+2023-07-15 13:47:44,398 INFO  [Log] Admin clicks on search button 
+2023-07-15 13:47:44,461 INFO  [Log] Admin request for a 'no records found' message 

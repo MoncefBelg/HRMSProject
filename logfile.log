@@ -240,3 +240,46 @@
 2023-07-15 04:53:59,524 INFO  [Log] ======================================================================================== 
 2023-07-15 04:53:59,828 INFO  [Log] Username has been entered 
 2023-07-15 04:54:00,377 INFO  [Log] Password has been entered 
+2023-07-15 05:02:12,558 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 05:02:12,559 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 05:02:12,559 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 05:02:12,559 INFO  [Log] ======================================================================================== 
+2023-07-15 05:02:12,563 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 05:02:12,563 INFO  [Log] ======================================================================================== 
+2023-07-15 05:02:13,014 INFO  [Log] Username has been entered 
+2023-07-15 05:02:13,131 INFO  [Log] Password has been entered 
+2023-07-15 05:07:23,791 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 05:07:23,791 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 05:07:23,791 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 05:07:23,792 INFO  [Log] ======================================================================================== 
+2023-07-15 05:07:23,793 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 05:07:23,793 INFO  [Log] ======================================================================================== 
+2023-07-15 05:07:23,921 INFO  [Log] Username has been entered 
+2023-07-15 05:07:24,010 INFO  [Log] Password has been entered 
+2023-07-15 05:23:58,079 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 05:23:58,080 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 05:23:58,080 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 05:23:58,080 INFO  [Log] ======================================================================================== 
+2023-07-15 05:23:58,082 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-15 05:23:58,083 INFO  [Log] ======================================================================================== 
+2023-07-15 05:23:58,305 INFO  [Log] Username has been entered 
+2023-07-15 05:23:58,425 INFO  [Log] Password has been entered 
+2023-07-15 05:24:01,026 INFO  [Log] XXXXXXXXXXX 
+2023-07-15 05:24:01,028 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 05:24:01,028 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 05:24:01,028 INFO  [Log] ======================================================================================== 
+2023-07-15 05:24:01,028 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-15 05:24:01,028 INFO  [Log] ======================================================================================== 
+2023-07-15 05:24:12,013 INFO  [Log] Admin navigates to Admin module 
+2023-07-15 05:24:12,138 INFO  [Log] Admin navigates to Qualifications menu 
+2023-07-15 05:24:13,059 INFO  [Log] Admin navigates to Language page 
+2023-07-15 05:24:13,182 INFO  [Log] Admin clicks on add language button 
+2023-07-15 05:24:13,432 INFO  [Log] Admin enters the intended language in language name field 
+2023-07-15 05:24:14,289 INFO  [Log] Admin clicks on save button 
+2023-07-15 05:24:14,289 INFO  [Log] ======================================================================================== 
+2023-07-15 05:24:14,289 INFO  [Log] -----------*<( The end of test case for Admin Add Language  )>*----------- 
+2023-07-15 05:24:14,289 INFO  [Log] -----------*<( The End of Test Case  )>*----------- 
+2023-07-15 05:24:14,289 INFO  [Log] ======================================================================================== 
+2023-07-15 05:24:14,289 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-15 05:24:14,289 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-15 05:24:14,289 INFO  [Log] XXXXXXXXXXX 

@@ -34,6 +34,8 @@ public class AQualificationLanguagePage extends CommonMethods {
     @FindBy(xpath = "//*[@id='recordsListTable']")
     public WebElement languageTable;
 
+    @FindBy(xpath = "//*[@id='recordsListTable']/tbody/tr/td[2]")
+    public WebElement languageTableColTwo;
     // for initialization of all the elements in this page is called inside constructor
     public AQualificationLanguagePage(){
         PageFactory.initElements(driver, this);

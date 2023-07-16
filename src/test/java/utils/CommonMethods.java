@@ -1,10 +1,7 @@
 package utils;
 
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -119,8 +116,8 @@ public class CommonMethods extends PageInitializers {
         return pictures;
     }
 
-    public static Select getSelect(WebElement element){
-        Select select=new Select(element);
+    public static Select getSelect(WebElement element) {
+        Select select = new Select(element);
         return select;
     }
 
@@ -133,28 +130,47 @@ public class CommonMethods extends PageInitializers {
         }
     }
 
-    public static void calendarSelectDate(WebElement monthDD, String month, WebElement yearDD, String year,List<WebElement> calendarDate, String day){
+    public static void calendarSelectDate(WebElement monthDD, String month, WebElement yearDD, String year, List<WebElement> calendarDate, String day) {
         getSelect(monthDD).selectByVisibleText(month);
         getSelect(yearDD).selectByVisibleText(year);
-        calendarDaySelect(calendarDate,day);
+        calendarDaySelect(calendarDate, day);
     }
 
-    public static void fileUpload (WebElement element, String path){
-            element.sendKeys(path);
-        }
+    public static void fileUpload(WebElement element, String path) {
+        element.sendKeys(path);
+    }
 
     public static void waitForElementToBePresent(WebElement element, String actualMsg) {
         getWait().until(ExpectedConditions.textToBePresentInElement(element, actualMsg));
     }
 
-    public static void checkBox(List<WebElement> allCheckBox, String value){
-       for(WebElement box:allCheckBox)
-        if(box.getText().equals(value)){
-            box.click();
-            break;
-        }
+    public static void checkBox(List<WebElement> allCheckBox, String value) {
+        for (WebElement box : allCheckBox)
+            if (box.getText().equals(value)) {
+                box.click();
+                break;
+            }
     }
+
+    public static void acceptAlert(WebElement element) {
+        element.click();
+        Alert confirmationAlert = driver.switchTo().alert();
+        confirmationAlert.accept();
     }
+
+    public static void dismissAlert(WebElement element) {
+        element.click();
+        Alert confirmationAlert = driver.switchTo().alert();
+        confirmationAlert.dismiss();
+    }
+
+    public static void sendKeysAlert(WebElement element, String value) {
+        element.click();
+        Alert confirmationAlert = driver.switchTo().alert();
+        confirmationAlert.sendKeys(value);
+        confirmationAlert.accept();
+    }
+}
 
 
 

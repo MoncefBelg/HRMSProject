@@ -1,13 +1,13 @@
 Feature: Login scenario
   Background:
     #Given admin is navigated to HRMS webpage
-  @login
+  @login @sprint2
   Scenario: Admin login
     When user enters admin username and password
     And user clicks on login button
     Then user is successfully logged in
 
-  @negative
+  @negative @sprint2
   Scenario Outline: Invalid user login
     When user enters "<username>" and "<password>" and verifying the "<error>" for the combinations
     Examples:

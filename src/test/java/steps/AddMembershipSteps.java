@@ -39,7 +39,7 @@ public class AddMembershipSteps extends CommonMethods {
    @And("admin user adding new {string}")
    public void admin_user_adding_new(String MembershipName) {
        click(membership.addMembershipBtn);
-       sendText(MembershipName,membership.MembershipNameField);
+       sendText(MembershipName+getTimeStamp("HHmmss"),membership.MembershipNameField);
        click(membership.btnSaveMembership);
 
    }

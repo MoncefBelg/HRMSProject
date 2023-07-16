@@ -21,8 +21,6 @@ import java.util.Date;
 
 public class CommonMethods extends PageInitializers {
     public static WebDriver driver;
-    static WebElement element;
-    static Select select;
 
     public static void openBrowserAndNavigateToURL() {
         ConfigReader.readProperties(Constants.CONFIG_READER_PATH);
@@ -68,32 +66,38 @@ public class CommonMethods extends PageInitializers {
         element.click();
     }
 
-    public static void singleSelectFromDropdownsUsingText(String text) {
+    public static void singleSelectFromDropdownsUsingText(String text, WebElement element) {
+        Select
         select = new Select(element);
         select.selectByVisibleText(text);
     }
 
-    public static void singleDeselectFromDropdownsUsingText(String text) {
+    public static void singleDeselectFromDropdownsUsingText(String text, WebElement element) {
+        Select
         select = new Select(element);
         select.deselectByVisibleText(text);
     }
 
-    public static void singleSelectFromDropdownsUsingValue(String value) {
+    public static void singleSelectFromDropdownsUsingValue(String value, WebElement element) {
+        Select
         select = new Select(element);
         select.selectByValue(value);
     }
 
-    public static void singleDeselectFromDropdownsUsingValue(String value) {
+    public static void singleDeselectFromDropdownsUsingValue(String value, WebElement element) {
+        Select
         select = new Select(element);
         select.deselectByValue(value);
     }
 
-    public static void singleSelectFromDropdownsUsingIndex(int index) {
+    public static void singleSelectFromDropdownsUsingIndex(int index, WebElement element) {
+        Select
         select = new Select(element);
         select.selectByIndex(index);
     }
 
-    public static void singleDeselectFromDropdownsUsingIndex(int index) {
+    public static void singleDeselectFromDropdownsUsingIndex(int index, WebElement element) {
+        Select select = new Select(element);
         select.deselectByIndex(index);
     }
 

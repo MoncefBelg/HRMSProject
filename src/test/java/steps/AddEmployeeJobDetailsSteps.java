@@ -20,11 +20,11 @@ public class AddEmployeeJobDetailsSteps extends CommonMethods {
     }
     @Then("user enters valid employee ID in textBox")
     public void user_enters_valid_employee_id_in_text_box() {
-        sendText(ConfigReader.getPropertyValue("employeeID"), employeeSearchPage.empIDField);
+        sendText(ConfigReader.getPropertyValue("employeeID"), employeeSearchPage.idTextField);
     }
     @Then("user clicks on search button")
     public void user_clicks_on_search_button() throws InterruptedException {
-        click(employeeSearchPage.searchBtn);
+        click(employeeSearchPage.searchButton);
     }
     @Then("user is able to see employee information")
     public void user_is_able_to_see_employee_information() throws InterruptedException {

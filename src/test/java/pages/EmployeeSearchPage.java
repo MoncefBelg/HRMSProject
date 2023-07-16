@@ -7,11 +7,11 @@ import utils.CommonMethods;
 
 public class EmployeeSearchPage extends CommonMethods {
 
-    @FindBy(xpath = "//input[@id='empsearch_id']")
-    public WebElement empIDField;
+    @FindBy(id="empsearch_id")
+    public WebElement idTextField;
 
-    @FindBy(xpath = "//input[@id='searchBtn']")
-    public WebElement searchBtn;
+    @FindBy(id="searchBtn")
+    public WebElement searchButton;
 
     @FindBy(xpath = "//table[@id='resultTable']/tbody/tr[1]/td[2]")
    public WebElement IDTable;

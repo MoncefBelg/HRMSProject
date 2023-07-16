@@ -5,7 +5,9 @@ import pages.DashboardPage;
 import pages.EmployeePage;
 import pages.EmployeeSearchPage;
 import pages.LoginPage;
+
 import pages.*;
+import pages.MembershipsPage;
 
 public class PageInitializers {
     public static LoginPage loginPage;
@@ -15,6 +17,7 @@ public class PageInitializers {
     public static EmployeeSearchPage employeeSearchPage;
     public static PersonalPage personalPage;
     public static AddEmployeeJobDetailsPage addEmployeeJobDetailsPage;
+    public static MembershipsPage membership;
 
     public static void initializePageObject(){
         loginPage = new LoginPage();
@@ -24,5 +27,6 @@ public class PageInitializers {
         employeeSearchPage=new EmployeeSearchPage();
         personalPage=new PersonalPage();
         addEmployeeJobDetailsPage =new AddEmployeeJobDetailsPage();
+        membership = new MembershipsPage();
     }
 }

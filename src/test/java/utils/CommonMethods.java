@@ -8,9 +8,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import steps.PageInitializers;
 
 import java.io.File;
@@ -18,11 +20,11 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.List;
 
 public class CommonMethods extends PageInitializers {
     public static WebDriver driver;
-    static WebElement element;
-    static Select select;
+
 
     public static void openBrowserAndNavigateToURL() {
         ConfigReader.readProperties(Constants.CONFIG_READER_PATH);
@@ -63,37 +65,39 @@ public class CommonMethods extends PageInitializers {
         getWait().until(ExpectedConditions.elementToBeClickable(element));
     }
 
+
     public static void click(WebElement element) {
         waitForElementToBeClickable(element);
         element.click();
     }
 
-    public static void singleSelectFromDropdownsUsingText(String text) {
-        select = new Select(element);
+    public static void singleSelectFromDropdownsUsingText(String text, WebElement element) {
+        Select select = new Select(element);
         select.selectByVisibleText(text);
     }
 
-    public static void singleDeselectFromDropdownsUsingText(String text) {
-        select = new Select(element);
+    public static void singleDeselectFromDropdownsUsingText(String text, WebElement element) {
+        Select select = new Select(element);
         select.deselectByVisibleText(text);
     }
 
-    public static void singleSelectFromDropdownsUsingValue(String value) {
-        select = new Select(element);
+    public static void singleSelectFromDropdownsUsingValue(String value, WebElement element) {
+        Select select = new Select(element);
         select.selectByValue(value);
     }
 
-    public static void singleDeselectFromDropdownsUsingValue(String value) {
-        select = new Select(element);
+    public static void singleDeselectFromDropdownsUsingValue(String value, WebElement element) {
+        Select select = new Select(element);
         select.deselectByValue(value);
     }
 
-    public static void singleSelectFromDropdownsUsingIndex(int index) {
-        select = new Select(element);
+    public static void singleSelectFromDropdownsUsingIndex(int index, WebElement element) {
+        Select select = new Select(element);
         select.selectByIndex(index);
     }
 
-    public static void singleDeselectFromDropdownsUsingIndex(int index) {
+    public static void singleDeselectFromDropdownsUsingIndex(int index, WebElement element) {
+        Select select = new Select(element);
         select.deselectByIndex(index);
     }
 
@@ -114,4 +118,44 @@ public class CommonMethods extends PageInitializers {
         }
         return pictures;
     }
-}
+
+    public static Select getSelect(WebElement element){
+        Select select=new Select(element);
+        return select;
+    }
+
+    public static void calendarDaySelect(List<WebElement> calendarDate, String day) {
+        for (WebElement dates : calendarDate) {
+            if (dates.getText().equals(day)) {
+                dates.click();
+                break;
+            }
+        }
+    }
+
+    public static void calendarSelectDate(WebElement monthDD, String month, WebElement yearDD, String year,List<WebElement> calendarDate, String day){
+        getSelect(monthDD).selectByVisibleText(month);
+        getSelect(yearDD).selectByVisibleText(year);
+        calendarDaySelect(calendarDate,day);
+    }
+
+    public static void fileUpload (WebElement element, String path){
+            element.sendKeys(path);
+        }
+
+    public static void waitForElementToBePresent(WebElement element, String actualMsg) {
+        getWait().until(ExpectedConditions.textToBePresentInElement(element, actualMsg));
+    }
+
+    public static void checkBox(List<WebElement> allCheckBox, String value){
+       for(WebElement box:allCheckBox)
+        if(box.getText().equals(value)){
+            box.click();
+            break;
+        }
+    }
+    }
+
+
+
+

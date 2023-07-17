@@ -69,27 +69,32 @@ public class CommonMethods extends PageInitializers {
     }
 
     public static void singleSelectFromDropdownsUsingText(String text, WebElement element) {
-        Select select = new Select(element);
+        Select
+        select = new Select(element);
         select.selectByVisibleText(text);
     }
 
     public static void singleDeselectFromDropdownsUsingText(String text, WebElement element) {
-        Select select = new Select(element);
+        Select
+        select = new Select(element);
         select.deselectByVisibleText(text);
     }
 
     public static void singleSelectFromDropdownsUsingValue(String value, WebElement element) {
-        Select select = new Select(element);
+        Select
+        select = new Select(element);
         select.selectByValue(value);
     }
 
     public static void singleDeselectFromDropdownsUsingValue(String value, WebElement element) {
-        Select select = new Select(element);
+        Select
+        select = new Select(element);
         select.deselectByValue(value);
     }
 
     public static void singleSelectFromDropdownsUsingIndex(int index, WebElement element) {
-        Select select = new Select(element);
+        Select
+        select = new Select(element);
         select.selectByIndex(index);
     }
 

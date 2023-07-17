@@ -7,8 +7,9 @@ public class PageInitializers {
     public static DashboardPage dashboardPage;
     public static EmployeeSearchPage employeeSearchPage;
     public static PersonalPage personalPage;
-
     public static AddEmployeeJobDetailsPage addEmployeeJobDetailsPage;
+
+    public static AddMembershipDetailsPage addMembershipDetailsPage;
 
     public static void initializePageObject(){
         loginPage = new LoginPage();
@@ -16,5 +17,6 @@ public class PageInitializers {
         employeeSearchPage=new EmployeeSearchPage();
         personalPage=new PersonalPage();
         addEmployeeJobDetailsPage =new AddEmployeeJobDetailsPage();
+        addMembershipDetailsPage=new AddMembershipDetailsPage();
     }
 }

@@ -20,7 +20,6 @@ public class Hooks extends CommonMethods {
         }else {
             picture = screenShot("passed/" + scenario.getName());
         }
-        //picture = screenShot(scenario.getName());
 
         scenario.attach(picture, "image/png", scenario.getName());
 

@@ -9,10 +9,12 @@ import pages.EmployeeSearchPage;
 import pages.LoginPage;
 import pages.*;
 import pages.MembershipsPage;
+import pages.TerminateEmployeePage;
 
 public class PageInitializers {
     public static LoginPage loginPage;
     public static DashboardPage dashboardPage;
+    public static TerminateEmployeePage terminateEmployees;
 
     public static AQualificationLanguagePage aQualificationLanguagePage;
     public static EmployeePage employeePage;
@@ -26,6 +28,7 @@ public class PageInitializers {
         loginPage = new LoginPage();
         dashboardPage = new DashboardPage();
 
+
         aQualificationLanguagePage = new AQualificationLanguagePage();
         employeePage = new EmployeePage();
         employeeSearchPage=new EmployeeSearchPage();
@@ -33,6 +36,6 @@ public class PageInitializers {
         addEmployeeJobDetailsPage =new AddEmployeeJobDetailsPage();
         membership = new MembershipsPage();
         addEmployeePage = new AddEmployeePage();
-
+        terminateEmployees=new TerminateEmployeePage();
     }
 }

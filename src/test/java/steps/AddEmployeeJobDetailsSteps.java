@@ -11,26 +11,11 @@ import utils.Log;
 
 public class AddEmployeeJobDetailsSteps extends CommonMethods {
 
-//    @When("user clicks on PIM option and Employee list option")
-//    public void user_clicks_on_pim_option_and_employee_list_option() {
-//        DOMConfigurator.configure("log4j.xml");
-//        Log.startTestCase("My test starts here");
-//     click(dashboardPage.pimOption);
-//     click(dashboardPage.employerListOption);
-//    }
     @Then("user enters valid employee ID in textBox")
     public void user_enters_valid_employee_id_in_text_box() {
         sendText(ConfigReader.getPropertyValue("employeeID"), employeeSearchPage.idTextField);
     }
-//    @Then("user clicks on search button")
-//    public void user_clicks_on_search_button() throws InterruptedException {
-//        click(employeeSearchPage.searchButton);
-//    }
-//    @Then("user is able to see employee information")
-//    public void user_is_able_to_see_employee_information() throws InterruptedException {
-//        String ID=employeeSearchPage.IDTable.getText();
-//        Assert.assertEquals(ConfigReader.getPropertyValue("employeeID"), ID);
-//    }
+
     @When("user clicks on employee information table")
     public void user_clicks_on_employee_information_table() {
        click(employeeSearchPage.IDTable);

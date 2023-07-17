@@ -15,7 +15,6 @@ public class PageInitializers {
     public static LoginPage loginPage;
     public static DashboardPage dashboardPage;
     public static TerminateEmployeePage terminateEmployees;
-
     public static AQualificationLanguagePage aQualificationLanguagePage;
     public static EmployeePage employeePage;
     public static EmployeeSearchPage employeeSearchPage;
@@ -23,12 +22,11 @@ public class PageInitializers {
     public static AddEmployeeJobDetailsPage addEmployeeJobDetailsPage;
     public static MembershipsPage membership;
     public static AddEmployeePage addEmployeePage;
+    public static AddMembershipDetailsPage addMembershipDetailsPage;
 
     public static void initializePageObject(){
         loginPage = new LoginPage();
         dashboardPage = new DashboardPage();
-
-
         aQualificationLanguagePage = new AQualificationLanguagePage();
         employeePage = new EmployeePage();
         employeeSearchPage=new EmployeeSearchPage();
@@ -37,5 +35,7 @@ public class PageInitializers {
         membership = new MembershipsPage();
         addEmployeePage = new AddEmployeePage();
         terminateEmployees=new TerminateEmployeePage();
+        addMembershipDetailsPage=new AddMembershipDetailsPage();
+
     }
 }

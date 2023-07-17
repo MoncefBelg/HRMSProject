@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunnerClass" time="341.027" tests="19" errors="4" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunnerClass" time="369.421" tests="18" errors="3" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\HOME\AppData\Local\Temp\surefire3664093157440000946\surefirebooter-20230717224309285_3.jar C:\Users\HOME\AppData\Local\Temp\surefire3664093157440000946 2023-07-17T22-43-08_826-jvmRun1 surefire-20230717224309285_1tmp surefire_0-20230717224309285_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\HOME\AppData\Local\Temp\surefire17101078422933474494\surefirebooter-20230717230026687_3.jar C:\Users\HOME\AppData\Local\Temp\surefire17101078422933474494 2023-07-17T23-00-26_196-jvmRun1 surefire-20230717230026687_1tmp surefire_0-20230717230026687_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\HOME\IdeaProjects\GroupProject\group18B16\target\test-classes;C:\Users\HOME\IdeaProjects\GroupProject\group18B16\target\classes;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.3\selenium-java-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.3\selenium-api-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.3\selenium-chrome-driver-4.8.3.jar;C:\Users\HOME\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\HOME\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\HOME\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\HOME\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\HOME\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\HOME\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HOME\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\HOME\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\HOME\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\HOME\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.3\selenium-chromium-driver-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.3\selenium-json-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.3\selenium-manager-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.3\selenium-devtools-v109-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.3\selenium-devtools-v110-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.8.3\selenium-devtools-v111-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.3\selenium-devtools-v85-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.3\selenium-edge-driver-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.3\selenium-firefox-driver-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.3\selenium-http-4.8.3.jar;C:\Users\HOME\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.3\selenium-ie-driver-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.3\selenium-remote-driver-4.8.3.jar;C:\Users\HOME\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\HOME\.m2\repository\io\netty\netty-buffer\4.1.90.Final\netty-buffer-4.1.90.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-codec-http\4.1.90.Final\netty-codec-http-4.1.90.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-codec\4.1.90.Final\netty-codec-4.1.90.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-handler\4.1.90.Final\netty-handler-4.1.90.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-common\4.1.90.Final\netty-common-4.1.90.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.90.Final\netty-transport-classes-epoll-4.1.90.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.90.Final\netty-transport-classes-kqueue-4.1.90.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-transport-native-epoll\4.1.90.Final\netty-transport-native-epoll-4.1.90.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.90.Final\netty-transport-native-kqueue-4.1.90.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.90.Final\netty-transport-native-unix-common-4.1.90.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-transport\4.1.90.Final\netty-transport-4.1.90.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-resolver\4.1.90.Final\netty-resolver-4.1.90.Final.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-api\1.24.0\opentelemetry-api-1.24.0.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-context\1.24.0\opentelemetry-context-1.24.0.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.24.0\opentelemetry-exporter-logging-1.24.0.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.24.0\opentelemetry-sdk-metrics-1.24.0.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.24.0-alpha\opentelemetry-sdk-logs-1.24.0-alpha.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.24.0-alpha\opentelemetry-api-logs-1.24.0-alpha.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.24.0-alpha\opentelemetry-api-events-1.24.0-alpha.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.24.0\opentelemetry-sdk-common-1.24.0.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.24.0\opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.24.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.24.0\opentelemetry-sdk-trace-1.24.0.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.24.0\opentelemetry-sdk-1.24.0.jar;C:\Users\HOME\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.24.0-alpha\opentelemetry-semconv-1.24.0-alpha.jar;C:\Users\HOME\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\HOME\.m2\repository\net\bytebuddy\byte-buddy\1.14.2\byte-buddy-1.14.2.jar;C:\Users\HOME\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\HOME\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\HOME\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\HOME\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\HOME\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\HOME\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\HOME\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HOME\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\HOME\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\HOME\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.3\selenium-safari-driver-4.8.3.jar;C:\Users\HOME\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.3\selenium-support-4.8.3.jar;C:\Users\HOME\.m2\repository\io\cucumber\cucumber-java\7.11.2\cucumber-java-7.11.2.jar;C:\Users\HOME\.m2\repository\io\cucumber\cucumber-core\7.11.2\cucumber-core-7.11.2.jar;C:\Users\HOME\.m2\repository\io\cucumber\cucumber-gherkin\7.11.2\cucumber-gherkin-7.11.2.jar;C:\Users\HOME\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.2\cucumber-gherkin-messages-7.11.2.jar;C:\Users\HOME\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\HOME\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\HOME\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\HOME\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\HOME\.m2\repository\io\cucumber\datatable\7.11.2\datatable-7.11.2.jar;C:\Users\HOME\.m2\repository\io\cucumber\cucumber-plugin\7.11.2\cucumber-plugin-7.11.2.jar;C:\Users\HOME\.m2\repository\io\cucumber\docstring\7.11.2\docstring-7.11.2.jar;C:\Users\HOME\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\HOME\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\HOME\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\HOME\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HOME\.m2\repository\io\cucumber\cucumber-junit\7.11.1\cucumber-junit-7.11.1.jar;C:\Users\HOME\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\HOME\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HOME\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\HOME\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\HOME\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\HOME\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\HOME\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\HOME\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\HOME\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\HOME\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\HOME\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\HOME\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\HOME\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\HOME\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\HOME\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\HOME\AppData\Local\Temp\surefire3664093157440000946\surefirebooter-20230717224309285_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\HOME\AppData\Local\Temp\surefire17101078422933474494\surefirebooter-20230717230026687_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.1+9-29"/>
@@ -50,7 +50,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Calibre2\;C:\Program Files\Java\jdk-20\bin;C:\Program Files\apache-maven-3.9.3\bin;C:\Program Files\Git\cmd;C:\Users\HOME\AppData\Local\Microsoft\WindowsApps;C:\Users\HOME\AppData\Local\GitHubDesktop\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\HOME\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\HOME\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Calibre2;C:\Program Files\Java\jdk-20\bin;C:\Program Files\apache-maven-3.9.3\bin;C:\Program Files\Git\cmd;C:\Users\HOME\AppData\Local\Microsoft\WindowsApps;C:\Users\HOME\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="Adding an employee" classname="Adding an employee to the HRMS application" time="34.667">
+  <testcase name="Adding an employee" classname="Adding an employee to the HRMS application" time="60.475">
     <system-out><![CDATA[
 @Regression @Smoke @Ana @sprint2
 Scenario: Adding an employee                   # src/test/resources/features/AddEmployee.feature:11
@@ -73,24 +73,24 @@ The user has logged in successfully
 Employee added successfully
   Then employee added successfully             # steps.AddEmployeeSteps.employee_added_successfully()
 
-    Embedding Adding an employee [image/png 164531 bytes]
+    Embedding Adding an employee [image/png 165314 bytes]
 
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 28898
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 29463
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2023 10:43:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 17, 2023 11:00:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
 log4j:WARN Continuable parsing error 3 and column 84
 log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
 ]]></system-err>
   </testcase>
-  <testcase name="Adding an employee with employee ID" classname="Adding an employee to the HRMS application" time="28.768">
+  <testcase name="Adding an employee with employee ID" classname="Adding an employee to the HRMS application" time="21.499">
     <system-out><![CDATA[
 @Regression @Smoke @Ana @sprint2
 Scenario: Adding an employee with employee ID  # src/test/resources/features/AddEmployee.feature:17
@@ -109,17 +109,17 @@ Employee added successfully
     Embedding Adding an employee with employee ID [image/png 145888 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 25354
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 12599
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2023 10:43:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 17, 2023 11:01:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
 log4j:WARN Continuable parsing error 3 and column 84
 log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
 ]]></system-err>
   </testcase>
-  <testcase name="Appropriate error messages" classname="Adding an employee to the HRMS application" time="19.975">
+  <testcase name="Appropriate error messages" classname="Adding an employee to the HRMS application" time="22.885">
     <system-out><![CDATA[
 @Regression @ErrorMessage @Ana @sprint2
 Scenario: Appropriate error messages                                            # src/test/resources/features/AddEmployee.feature:24
@@ -133,20 +133,20 @@ The user has logged in successfully
   When the user submits incomplete or invalid employee info                     # steps.AddEmployeeSteps.the_user_submits_incomplete_or_invalid_employee_info()
   Then display clear and visible error message near the respective input fields # steps.AddEmployeeSteps.display_clear_and_visible_error_message_near_the_respective_input_fields()
 
-    Embedding Appropriate error messages [image/png 67556 bytes]
+    Embedding Appropriate error messages [image/png 68178 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 33999
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 35273
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2023 10:44:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 17, 2023 11:01:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
 log4j:WARN Continuable parsing error 3 and column 84
 log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
 ]]></system-err>
   </testcase>
-  <testcase name="adding job details" classname="Add current job details for employees" time="45.998">
+  <testcase name="adding job details" classname="Add current job details for employees" time="67.028">
     <system-out><![CDATA[
 @regression @sprint2 @userStory7
 Scenario: adding job details                              # src/test/resources/features/AddEmployeeJobDetails.feature:14
@@ -173,14 +173,14 @@ Employee is displayed
   And user clicks on save button                          # steps.AddEmployeeJobDetailsSteps.user_clicks_on_save_button()
   Then job details added successfully                     # steps.AddEmployeeJobDetailsSteps.job_details_added_successfully()
 
-    Embedding adding job details [image/png 155293 bytes]
+    Embedding adding job details [image/png 154916 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 33990
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 5980
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2023 10:44:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 17, 2023 11:02:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
 log4j:WARN Continuable parsing error 3 and column 84
 log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
@@ -188,7 +188,110 @@ log4j:WARN Continuable parsing error 3 and column 84
 log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
 ]]></system-err>
   </testcase>
-  <testcase name="AdminAddLanguage" classname="AdminShouldAddLanguage" time="9.536">
+  <testcase name="AdminAddLanguage" classname="AdminShouldAddLanguage" time="27.172">
+    <system-out><![CDATA[
+@sprint2 @qualification @language @regression
+Scenario: AdminAddLanguage                                   # src/test/resources/features/AddLanguage.feature:5
+  When user enters admin username and password               # steps.LoginSteps.user_enters_admin_username_and_password()
+  When user clicks on login button                           # steps.LoginSteps.user_clicks_on_login_button()
+  When user navigates to Qualification and selects Languages # steps.AdminAddLanguageSteps.user_navigates_to_qualification_and_selects_languages()
+  Then user can add any language                             # steps.AdminAddLanguageSteps.user_can_add_any_language()
+
+    Embedding AdminAddLanguage [image/png 150369 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 48136
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 17, 2023 11:03:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
+log4j:WARN Continuable parsing error 3 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+log4j:WARN Continuable parsing error 3 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="admin user should be able to add membership" classname="Add Membership" time="19.83">
+    <system-out><![CDATA[
+@Veranda @sprint2
+Scenario Outline: admin user should be able to add membership # src/test/resources/features/AddMembership.feature:15
+  Given user is logged in with admin credentials              # steps.AddMembershipSteps.user_is_logged_in_with_admin_credentials()
+  When admin user navigates to Qualifications                 # steps.AddMembershipSteps.adminUserNavigatesToQualifications()
+  And admin user selects Membership                           # steps.AddMembershipSteps.admin_user_selects_membership()
+  And admin user adding new "Intellij"                        # steps.AddMembershipSteps.admin_user_adding_new(java.lang.String)
+  Then verify new membership is created                       # steps.AddMembershipSteps.verify_new_membership_is_created()
+
+    Embedding admin user should be able to add membership [image/png 151712 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 16394
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 17, 2023 11:03:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
+log4j:WARN Continuable parsing error 3 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="adding employee membership details" classname="As an employee add membership details" time="12.543">
+    <system-out><![CDATA[
+@userStory13 @sprint2
+Scenario: adding employee membership details          # src/test/resources/features/AddMembershipDetails.feature:7
+  When user enters employee username and password     # steps.AddMembershipDetailsSteps.user_enters_employee_username_and_password()
+  And user clicks on login button                     # steps.LoginSteps.user_clicks_on_login_button()
+  Then user clicks on MyInfo option                   # steps.AddMembershipDetailsSteps.user_clicks_on_my_info_option()
+  Then user clicks on Memberships option              # steps.AddMembershipDetailsSteps.user_clicks_on_memberships_option()
+  And user clicks on add button                       # steps.AddMembershipDetailsSteps.user_clicks_on_add_button()
+  Then user select the Membership                     # steps.AddMembershipDetailsSteps.user_select_the_membership()
+  And user select the Subscription Paid By            # steps.AddMembershipDetailsSteps.user_select_the_subscription_paid_by()
+  And user enters the Subscription Amount             # steps.AddMembershipDetailsSteps.user_enters_the_subscription_amount()
+  And user select the Currency                        # steps.AddMembershipDetailsSteps.user_select_the_currency()
+  And user select Subscription Commence Date          # steps.AddMembershipDetailsSteps.user_select_subscription_commence_date()
+  And user select Subscription Renewal Date           # steps.AddMembershipDetailsSteps.user_select_subscription_renewal_date()
+  Then user can see employee information              # steps.AddMembershipDetailsSteps.user_can_see_employee_information()
+  And user clicks on Save button                      # steps.AddMembershipDetailsSteps.user_clicks_on_save_button()
+  Then employee membership details added successfully # steps.AddMembershipDetailsSteps.employee_membership_details_added_successfully()
+
+    Embedding adding employee membership details [image/png 141710 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 1590
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 17, 2023 11:04:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
+log4j:WARN Continuable parsing error 3 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="user to be able to change contact details" classname="ContactDetailsChanging" time="24.12">
+    <system-out><![CDATA[
+@sprint2 @contact
+Scenario: user to be able to change contact details            # src/test/resources/features/EmployeeInfo.feature:6
+  When User Enters a Username                                  # steps.ContactDetailsChangingSteps.User_Enters_a_Username()
+  When User Enters a Password                                  # steps.ContactDetailsChangingSteps.User_Enters_a_Password()
+  And user clicks on login button                              # steps.LoginSteps.user_clicks_on_login_button()
+  When User clicks on PIM                                      # steps.ContactDetailsChangingSteps.User_clicks_on_PIM()
+  When User Click on Contact Details                           # steps.ContactDetailsChangingSteps.User_Click_on_Contact_Details()
+  When User Clicks on Edit Button                              # steps.ContactDetailsChangingSteps.User_Clicks_on_Edit_Button()
+  When User Enters a Mobile Phone and Work Email               # steps.ContactDetailsChangingSteps.User_Enters_a_Mobile_Phone_and_Work_Email()
+  Then User Is able to Change His Contact Details And  Save it # steps.ContactDetailsChangingSteps.User_Is_able_to_Change_His_Contact_Details_And_Save_it()
+
+    Embedding user to be able to change contact details [image/png 304780 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 17781
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 17, 2023 11:04:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
+]]></system-err>
+  </testcase>
+  <testcase name="Search employee by name" classname="Search an employee" time="2.611">
     <error message="Could not start a new session. Response code 500. Message: session not created&#10;from no such execution context: uniqueContextId not found&#10;  (Session info: chrome=114.0.5735.199) &#10;Host info: host: &apos;DESKTOP-7EP4MN4&apos;, ip: &apos;192.168.1.238&apos;&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created
 from no such execution context: uniqueContextId not found
@@ -215,8 +318,8 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
 	at steps.Hooks.start(Hooks.java:12)
 ]]></error>
     <system-out><![CDATA[
-@sprint2 @qualification @language @regression
-Scenario: AdminAddLanguage                                   # src/test/resources/features/AddLanguage.feature:5
+@smoke @background @sprint2
+Scenario: Search employee by name                         # src/test/resources/features/EmployeeSearch.feature:11
       org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
 from no such execution context: uniqueContextId not found
   (Session info: chrome=114.0.5735.199) 
@@ -241,16 +344,19 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
 	at utils.CommonMethods.openBrowserAndNavigateToURL(CommonMethods.java:30)
 	at steps.Hooks.start(Hooks.java:12)
 
-  When user enters admin username and password               # steps.LoginSteps.user_enters_admin_username_and_password()
-  When user clicks on login button                           # steps.LoginSteps.user_clicks_on_login_button()
-  When user navigates to Qualification and selects Languages # steps.AdminAddLanguageSteps.user_navigates_to_qualification_and_selects_languages()
-  Then user can add any language                             # steps.AdminAddLanguageSteps.user_can_add_any_language()
+  When user enters admin username and password            # steps.LoginSteps.user_enters_admin_username_and_password()
+  And user clicks on login button                         # steps.LoginSteps.user_clicks_on_login_button()
+  Then user is successfully logged in                     # steps.LoginSteps.user_is_successfully_logged_in_the_application()
+  When user clicks on PIM option and Employee list option # steps.EmployeeSearchSteps.user_clicks_on_pim_option_and_employee_list_option()
+  And user enters valid employee name in name text box    # steps.EmployeeSearchSteps.user_enters_valid_employee_name_in_name_text_box()
+  And user clicks on search button                        # steps.EmployeeSearchSteps.user_clicks_on_search_button()
+  Then user is able to see employee information           # steps.EmployeeSearchSteps.user_is_able_to_see_employee_information()
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50392}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50392/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51809/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
@@ -262,20 +368,20 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 	at steps.Hooks.end(Hooks.java:19)
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 38611
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 6213
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 ]]></system-err>
   </testcase>
-  <testcase name="AdminAddLanguage" classname="AdminShouldAddLanguage" time="9.542">
-    <error message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50392}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50392/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
+  <testcase name="Search employee by name" classname="Search an employee" time="2.612">
+    <error message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51809/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
 Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50392}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50392/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51809/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
@@ -287,110 +393,31 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 	at steps.Hooks.end(Hooks.java:19)
 ]]></error>
   </testcase>
-  <testcase name="admin user should be able to add membership" classname="Add Membership" time="26.702">
+  <testcase name="Search employee by id" classname="Search an employee" time="26.199">
     <system-out><![CDATA[
-@Veranda @sprint2
-Scenario Outline: admin user should be able to add membership # src/test/resources/features/AddMembership.feature:15
-  Given user is logged in with admin credentials              # steps.AddMembershipSteps.user_is_logged_in_with_admin_credentials()
-  When admin user navigates to Qualifications                 # steps.AddMembershipSteps.adminUserNavigatesToQualifications()
-  And admin user selects Membership                           # steps.AddMembershipSteps.admin_user_selects_membership()
-  And admin user adding new "Intellij"                        # steps.AddMembershipSteps.admin_user_adding_new(java.lang.String)
-  Then verify new membership is created                       # steps.AddMembershipSteps.verify_new_membership_is_created()
-
-    Embedding admin user should be able to add membership [image/png 151712 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 28927
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 17, 2023 10:45:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
-log4j:WARN Continuable parsing error 3 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
-]]></system-err>
-  </testcase>
-  <testcase name="adding employee membership details" classname="As an employee add membership details" time="14.817">
-    <system-out><![CDATA[
-@userStory13 @sprint2
-Scenario: adding employee membership details          # src/test/resources/features/AddMembershipDetails.feature:7
-  When user enters employee username and password     # steps.AddMembershipDetailsSteps.user_enters_employee_username_and_password()
-  And user clicks on login button                     # steps.LoginSteps.user_clicks_on_login_button()
-  Then user clicks on MyInfo option                   # steps.AddMembershipDetailsSteps.user_clicks_on_my_info_option()
-  Then user clicks on Memberships option              # steps.AddMembershipDetailsSteps.user_clicks_on_memberships_option()
-  And user clicks on add button                       # steps.AddMembershipDetailsSteps.user_clicks_on_add_button()
-  Then user select the Membership                     # steps.AddMembershipDetailsSteps.user_select_the_membership()
-  And user select the Subscription Paid By            # steps.AddMembershipDetailsSteps.user_select_the_subscription_paid_by()
-  And user enters the Subscription Amount             # steps.AddMembershipDetailsSteps.user_enters_the_subscription_amount()
-  And user select the Currency                        # steps.AddMembershipDetailsSteps.user_select_the_currency()
-  And user select Subscription Commence Date          # steps.AddMembershipDetailsSteps.user_select_subscription_commence_date()
-  And user select Subscription Renewal Date           # steps.AddMembershipDetailsSteps.user_select_subscription_renewal_date()
-  Then user can see employee information              # steps.AddMembershipDetailsSteps.user_can_see_employee_information()
-  And user clicks on Save button                      # steps.AddMembershipDetailsSteps.user_clicks_on_save_button()
-  Then employee membership details added successfully # steps.AddMembershipDetailsSteps.employee_membership_details_added_successfully()
-
-    Embedding adding employee membership details [image/png 141710 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 23367
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 17, 2023 10:45:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
-log4j:WARN Continuable parsing error 3 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
-]]></system-err>
-  </testcase>
-  <testcase name="user to be able to change contact details" classname="ContactDetailsChanging" time="27.4">
-    <system-out><![CDATA[
-@sprint2 @contact
-Scenario: user to be able to change contact details            # src/test/resources/features/EmployeeInfo.feature:6
-  When User Enters a Username                                  # steps.ContactDetailsChangingSteps.User_Enters_a_Username()
-  When User Enters a Password                                  # steps.ContactDetailsChangingSteps.User_Enters_a_Password()
-  And user clicks on login button                              # steps.LoginSteps.user_clicks_on_login_button()
-  When User clicks on PIM                                      # steps.ContactDetailsChangingSteps.User_clicks_on_PIM()
-  When User Click on Contact Details                           # steps.ContactDetailsChangingSteps.User_Click_on_Contact_Details()
-  When User Clicks on Edit Button                              # steps.ContactDetailsChangingSteps.User_Clicks_on_Edit_Button()
-  When User Enters a Mobile Phone and Work Email               # steps.ContactDetailsChangingSteps.User_Enters_a_Mobile_Phone_and_Work_Email()
-  Then User Is able to Change His Contact Details And  Save it # steps.ContactDetailsChangingSteps.User_Is_able_to_Change_His_Contact_Details_And_Save_it()
-
-    Embedding user to be able to change contact details [image/png 304780 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 4798
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 17, 2023 10:46:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
-]]></system-err>
-  </testcase>
-  <testcase name="Search employee by name" classname="Search an employee" time="30.197">
-    <system-out><![CDATA[
-@smoke @background @sprint2
-Scenario: Search employee by name                         # src/test/resources/features/EmployeeSearch.feature:11
+@sprint2 @background @sprint2
+Scenario: Search employee by id                           # src/test/resources/features/EmployeeSearch.feature:17
   When user enters admin username and password            # steps.LoginSteps.user_enters_admin_username_and_password()
   And user clicks on login button                         # steps.LoginSteps.user_clicks_on_login_button()
 The user has logged in successfully
   Then user is successfully logged in                     # steps.LoginSteps.user_is_successfully_logged_in_the_application()
   When user clicks on PIM option and Employee list option # steps.EmployeeSearchSteps.user_clicks_on_pim_option_and_employee_list_option()
-[Shyam ms, Kiran Prayas, Sayed Mansoor, Selab ms, Selab ms, sana caty, sana caty, sophia banana, sana, sana caty, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Asli D, Azim Arman, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim, Zhuldyz Azim]
-Selecting a random element from the list : Asli D
-Asli D
-  And user enters valid employee name in name text box    # steps.EmployeeSearchSteps.user_enters_valid_employee_name_in_name_text_box()
+[56549802, 76528765, 63248134, 86627A, 86629A, 51797739, 78389081, 13669532, 66498583, 53161A, 53320A, 53449A, 53551A, 53664A, 53765A, 53851A, 53864A, 53976A, 54870A, 54997A, 55315A, 55386A, 55430A, 55541A, 56798A, 57280A, 57283A, 57285A, 58089A, 58090A, 58094A, 58098A, 53233A, 67379A, 67380A, 69654A, 69675A, 69677A, 72434A, 72443A, 72444A, 72447A, 72452A, 72454A, 72455A, 72621A, 73101A, 73234A, 73235A, 73236A]
+Selecting a random element from the list : 53233A
+53233A
+  And user enters valid employee id                       # steps.EmployeeSearchSteps.user_enters_valid_employee_id()
   And user clicks on search button                        # steps.EmployeeSearchSteps.user_clicks_on_search_button()
 Employee is displayed
   Then user is able to see employee information           # steps.EmployeeSearchSteps.user_is_able_to_see_employee_information()
 
-    Embedding Search employee by name [image/png 166517 bytes]
+    Embedding Search employee by id [image/png 165771 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 1859
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 41663
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2023 10:46:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 17, 2023 11:04:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
 log4j:WARN Continuable parsing error 3 and column 84
 log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
@@ -398,109 +425,7 @@ log4j:WARN Continuable parsing error 3 and column 84
 log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
 ]]></system-err>
   </testcase>
-  <testcase name="Search employee by id" classname="Search an employee" time="4.596">
-    <error message="Could not start a new session. Response code 500. Message: session not created&#10;from no such execution context: loader has changed while resolving nodes&#10;  (Session info: chrome=114.0.5735.199) &#10;Host info: host: &apos;DESKTOP-7EP4MN4&apos;, ip: &apos;192.168.1.238&apos;&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
-Could not start a new session. Response code 500. Message: session not created
-from no such execution context: loader has changed while resolving nodes
-  (Session info: chrome=114.0.5735.199) 
-Host info: host: 'DESKTOP-7EP4MN4', ip: '192.168.1.238'
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
-	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
-	at utils.CommonMethods.openBrowserAndNavigateToURL(CommonMethods.java:30)
-	at steps.Hooks.start(Hooks.java:12)
-]]></error>
-    <system-out><![CDATA[
-@sprint2 @background @sprint2
-Scenario: Search employee by id                           # src/test/resources/features/EmployeeSearch.feature:17
-      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
-from no such execution context: loader has changed while resolving nodes
-  (Session info: chrome=114.0.5735.199) 
-Host info: host: 'DESKTOP-7EP4MN4', ip: '192.168.1.238'
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
-	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
-	at utils.CommonMethods.openBrowserAndNavigateToURL(CommonMethods.java:30)
-	at steps.Hooks.start(Hooks.java:12)
-
-  When user enters admin username and password            # steps.LoginSteps.user_enters_admin_username_and_password()
-  And user clicks on login button                         # steps.LoginSteps.user_clicks_on_login_button()
-  Then user is successfully logged in                     # steps.LoginSteps.user_is_successfully_logged_in_the_application()
-  When user clicks on PIM option and Employee list option # steps.EmployeeSearchSteps.user_clicks_on_pim_option_and_employee_list_option()
-  And user enters valid employee id                       # steps.EmployeeSearchSteps.user_enters_valid_employee_id()
-  And user clicks on search button                        # steps.EmployeeSearchSteps.user_clicks_on_search_button()
-  Then user is able to see employee information           # steps.EmployeeSearchSteps.user_is_able_to_see_employee_information()
-      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50571/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
-	at utils.CommonMethods.screenShot(CommonMethods.java:114)
-	at steps.Hooks.end(Hooks.java:19)
-
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 28244
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-]]></system-err>
-  </testcase>
-  <testcase name="Search employee by id" classname="Search an employee" time="4.599">
-    <error message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50571/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
-Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50571/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
-	at utils.CommonMethods.screenShot(CommonMethods.java:114)
-	at steps.Hooks.end(Hooks.java:19)
-]]></error>
-  </testcase>
-  <testcase name="No records found" classname="Search an employee" time="28.411">
+  <testcase name="No records found" classname="Search an employee" time="25.972">
     <system-out><![CDATA[
 @negative @background @sprint2
 Scenario: No records found                                # src/test/resources/features/EmployeeSearch.feature:23
@@ -509,22 +434,22 @@ Scenario: No records found                                # src/test/resources/f
 The user has logged in successfully
   Then user is successfully logged in                     # steps.LoginSteps.user_is_successfully_logged_in_the_application()
   When user clicks on PIM option and Employee list option # steps.EmployeeSearchSteps.user_clicks_on_pim_option_and_employee_list_option()
-[56549802, 76528765, 63248134, 86627A, 86629A, 51797739, 68373291, 78389081, 13669532, 66498583, 53161A, 53320A, 53449A, 53551A, 53664A, 53765A, 53851A, 53864A, 53976A, 54870A, 54997A, 55315A, 55386A, 55430A, 55541A, 56798A, 57280A, 57283A, 57285A, 58089A, 58090A, 58094A, 58098A, 53233A, 67379A, 67380A, 69654A, 69675A, 69677A, 72434A, 72443A, 72444A, 72447A, 72452A, 72454A, 72455A, 72621A, 73101A, 73234A, 73235A]
-Selecting a random element from the list : 72452A
-72452A
+[56549802, 76528765, 63248134, 86627A, 86629A, 51797739, 78389081, 13669532, 66498583, 53161A, 53320A, 53449A, 53551A, 53664A, 53765A, 53851A, 53864A, 53976A, 54870A, 54997A, 55315A, 55386A, 55430A, 55541A, 56798A, 57280A, 57283A, 57285A, 58089A, 58090A, 58094A, 58098A, 53233A, 67379A, 67380A, 69654A, 69675A, 69677A, 72434A, 72443A, 72444A, 72447A, 72452A, 72454A, 72455A, 72621A, 73101A, 73234A, 73235A, 73236A]
+Selecting a random element from the list : 72621A
+72621A
   And user enters invalid employee id in idtext box       # steps.EmployeeSearchSteps.user_enters_invalid_employee_id_in_idtext_box()
   And user clicks on search button                        # steps.EmployeeSearchSteps.user_clicks_on_search_button()
 No Records Found
   Then user is going to see no records found message      # steps.EmployeeSearchSteps.user_is_going_to_see_no_records_found_message()
 
-    Embedding No records found [image/png 166832 bytes]
+    Embedding No records found [image/png 166805 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 11667
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 12097
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2023 10:47:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 17, 2023 11:05:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
 log4j:WARN Continuable parsing error 3 and column 84
 log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
@@ -532,29 +457,77 @@ log4j:WARN Continuable parsing error 3 and column 84
 log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
 ]]></system-err>
   </testcase>
-  <testcase name="Admin login" classname="Login scenario" time="11.291">
+  <testcase name="Admin login" classname="Login scenario" time="2.477">
+    <error message="unknown error: cannot determine loading status&#10;from no such window&#10;  (Session info: chrome=114.0.5735.199)&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [9dc137a441655a3b2b9e82b9eb04d84d, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51933}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51933/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9dc137a441655a3b2b9e82b9eb04d84d" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from no such window
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9dc137a441655a3b2b9e82b9eb04d84d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51933}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51933/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dc137a441655a3b2b9e82b9eb04d84d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:953)
+	at utils.CommonMethods.openBrowserAndNavigateToURL(CommonMethods.java:39)
+	at steps.Hooks.start(Hooks.java:12)
+]]></error>
     <system-out><![CDATA[
 @login @sprint2
 Scenario: Admin login                          # src/test/resources/features/Login.feature:5
+      org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such window
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9dc137a441655a3b2b9e82b9eb04d84d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HOME\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51933}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51933/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dc137a441655a3b2b9e82b9eb04d84d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:953)
+	at utils.CommonMethods.openBrowserAndNavigateToURL(CommonMethods.java:39)
+	at steps.Hooks.start(Hooks.java:12)
+
   When user enters admin username and password # steps.LoginSteps.user_enters_admin_username_and_password()
   And user clicks on login button              # steps.LoginSteps.user_clicks_on_login_button()
-The user has logged in successfully
   Then user is successfully logged in          # steps.LoginSteps.user_is_successfully_logged_in_the_application()
 
-    Embedding Admin login [image/png 144506 bytes]
+    Embedding Admin login [image/png 6767 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 1512
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 3417
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2023 10:47:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 17, 2023 11:05:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
-log4j:WARN Continuable parsing error 3 and column 84
-log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid user login #1" classname="Login scenario" time="5.847">
+  <testcase name="Invalid user login #1" classname="Login scenario" time="4.429">
     <system-out><![CDATA[
 @negative @sprint2
 Scenario Outline: Invalid user login                                                               # src/test/resources/features/Login.feature:15
@@ -563,15 +536,15 @@ Scenario Outline: Invalid user login                                            
     Embedding Invalid user login [image/png 136993 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 12162
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 44001
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2023 10:47:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 17, 2023 11:05:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid user login #2" classname="Login scenario" time="4.884">
+  <testcase name="Invalid user login #2" classname="Login scenario" time="4.411">
     <system-out><![CDATA[
 @negative @sprint2
 Scenario Outline: Invalid user login                                                                        # src/test/resources/features/Login.feature:16
@@ -580,15 +553,15 @@ Scenario Outline: Invalid user login                                            
     Embedding Invalid user login [image/png 136993 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 12557
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 30919
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2023 10:48:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 17, 2023 11:05:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid user login #3" classname="Login scenario" time="4.733">
+  <testcase name="Invalid user login #3" classname="Login scenario" time="4.614">
     <system-out><![CDATA[
 @negative @sprint2
 Scenario Outline: Invalid user login                                                                   # src/test/resources/features/Login.feature:17
@@ -597,15 +570,15 @@ Scenario Outline: Invalid user login                                            
     Embedding Invalid user login [image/png 205628 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 41224
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 29564
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2023 10:48:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 17, 2023 11:05:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid user login #4" classname="Login scenario" time="4.116">
+  <testcase name="Invalid user login #4" classname="Login scenario" time="4.613">
     <system-out><![CDATA[
 @negative @sprint2
 Scenario Outline: Invalid user login                                                               # src/test/resources/features/Login.feature:18
@@ -614,15 +587,15 @@ Scenario Outline: Invalid user login                                            
     Embedding Invalid user login [image/png 206895 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 41907
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 21212
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2023 10:48:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 17, 2023 11:05:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
 ]]></system-err>
   </testcase>
-  <testcase name="As an admin user, I want to have the ability to terminate the employment of specified employees in the system using employee id" classname="Employee termination" time="36.222">
+  <testcase name="As an admin user, I want to have the ability to terminate the employment of specified employees in the system using employee id" classname="Employee termination" time="37.173">
     <system-out><![CDATA[
 @deleteEmployee @sprint2
 Scenario: As an admin user, I want to have the ability to terminate the employment of specified employees in the system using employee id # src/test/resources/features/TerminateEmployees.feature:3
@@ -636,14 +609,14 @@ The user has logged in successfully
   And select the option to terminate the employment of the specified employee                                                             # steps.TerminateEmployeesSteps.select_the_option_to_terminate_the_employment_of_the_specified_employee()
   Then specified employee is terminated                                                                                                   # steps.TerminateEmployeesSteps.specified_employee_is_terminated()
 
-    Embedding As an admin user, I want to have the ability to terminate the employment of specified employees in the system using employee id [image/png 164397 bytes]
+    Embedding As an admin user, I want to have the ability to terminate the employment of specified employees in the system using employee id [image/png 159627 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 46483
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 45277
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2023 10:48:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 17, 2023 11:06:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 111
 log4j:WARN Continuable parsing error 3 and column 84
 log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".

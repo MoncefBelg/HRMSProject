@@ -283,3 +283,144 @@
 2023-07-17 22:48:17,531 INFO  [Log] ======================================================================================== 
 2023-07-17 22:48:17,663 INFO  [Log] Username has been entered 
 2023-07-17 22:48:17,777 INFO  [Log] Password has been entered 
+2023-07-17 23:01:01,608 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:01:01,609 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:01:01,609 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:01:01,609 INFO  [Log] ======================================================================================== 
+2023-07-17 23:01:01,611 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-17 23:01:01,611 INFO  [Log] ======================================================================================== 
+2023-07-17 23:01:01,894 INFO  [Log] Username has been entered 
+2023-07-17 23:01:02,082 INFO  [Log] Password has been entered 
+2023-07-17 23:01:34,426 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:01:34,426 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:01:34,426 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:01:34,426 INFO  [Log] ======================================================================================== 
+2023-07-17 23:01:34,426 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-17 23:01:34,426 INFO  [Log] ======================================================================================== 
+2023-07-17 23:01:34,542 INFO  [Log] Username has been entered 
+2023-07-17 23:01:34,660 INFO  [Log] Password has been entered 
+2023-07-17 23:01:58,355 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:01:58,355 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:01:58,355 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:01:58,355 INFO  [Log] ======================================================================================== 
+2023-07-17 23:01:58,355 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-17 23:01:58,355 INFO  [Log] ======================================================================================== 
+2023-07-17 23:01:58,495 INFO  [Log] Username has been entered 
+2023-07-17 23:01:58,601 INFO  [Log] Password has been entered 
+2023-07-17 23:02:20,690 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:02:20,690 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:02:20,690 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:02:20,690 INFO  [Log] ======================================================================================== 
+2023-07-17 23:02:20,690 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-17 23:02:20,690 INFO  [Log] ======================================================================================== 
+2023-07-17 23:02:20,813 INFO  [Log] Username has been entered 
+2023-07-17 23:02:20,916 INFO  [Log] Password has been entered 
+2023-07-17 23:02:23,462 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:02:23,462 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:02:23,462 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:02:23,462 INFO  [Log] ======================================================================================== 
+2023-07-17 23:02:23,463 INFO  [Log] -----------*<( Start test case for Search Employee  )>*----------- 
+2023-07-17 23:02:23,463 INFO  [Log] ======================================================================================== 
+2023-07-17 23:02:37,306 INFO  [Log] Admin navigates to Employee List 
+2023-07-17 23:02:44,536 INFO  [Log] Admin clicks on search button 
+2023-07-17 23:03:11,845 INFO  [Log] ======================================================================================== 
+2023-07-17 23:03:11,845 INFO  [Log] -----------*<( My test ends here  )>*----------- 
+2023-07-17 23:03:11,845 INFO  [Log] -----------*<( The End of Test Case  )>*----------- 
+2023-07-17 23:03:11,845 INFO  [Log] ======================================================================================== 
+2023-07-17 23:03:11,845 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:03:11,845 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:03:11,845 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:03:30,568 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:03:30,570 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:03:30,570 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:03:30,570 INFO  [Log] ======================================================================================== 
+2023-07-17 23:03:30,572 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-17 23:03:30,572 INFO  [Log] ======================================================================================== 
+2023-07-17 23:03:30,754 INFO  [Log] Username has been entered 
+2023-07-17 23:03:30,948 INFO  [Log] Password has been entered 
+2023-07-17 23:03:33,427 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:03:33,427 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:03:33,427 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:03:33,427 INFO  [Log] ======================================================================================== 
+2023-07-17 23:03:33,427 INFO  [Log] -----------*<( Start test case for Admin Add Language  )>*----------- 
+2023-07-17 23:03:33,427 INFO  [Log] ======================================================================================== 
+2023-07-17 23:03:43,999 INFO  [Log] Admin navigates to Admin module 
+2023-07-17 23:03:44,144 INFO  [Log] Admin navigates to Qualifications menu 
+2023-07-17 23:03:45,065 INFO  [Log] Admin navigates to Language page 
+2023-07-17 23:03:45,239 INFO  [Log] Admin clicks on add language button 
+2023-07-17 23:03:45,391 INFO  [Log] Admin enters the intended language in language name field 
+2023-07-17 23:03:46,294 INFO  [Log] Admin clicks on save button 
+2023-07-17 23:03:46,311 INFO  [Log] gather data from the language column 
+2023-07-17 23:03:46,626 INFO  [Log] Verifies if language is added or already exists 
+2023-07-17 23:03:46,628 INFO  [Log] The language is added!!!!! 
+2023-07-17 23:03:46,628 INFO  [Log] ======================================================================================== 
+2023-07-17 23:03:46,628 INFO  [Log] -----------*<( Admin Add Language  )>*----------- 
+2023-07-17 23:03:46,628 INFO  [Log] -----------*<( The End of Test Case  )>*----------- 
+2023-07-17 23:03:46,628 INFO  [Log] ======================================================================================== 
+2023-07-17 23:03:46,628 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:03:46,628 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:03:46,628 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:03:50,639 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:03:50,639 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:03:50,639 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:03:50,639 INFO  [Log] ======================================================================================== 
+2023-07-17 23:03:50,639 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-17 23:03:50,639 INFO  [Log] ======================================================================================== 
+2023-07-17 23:03:50,803 INFO  [Log] Username has been entered 
+2023-07-17 23:03:50,985 INFO  [Log] Password has been entered 
+2023-07-17 23:04:10,446 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:04:10,446 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:04:10,446 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:04:10,446 INFO  [Log] ======================================================================================== 
+2023-07-17 23:04:10,446 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-17 23:04:10,446 INFO  [Log] ======================================================================================== 
+2023-07-17 23:04:19,125 INFO  [Log] ======================================================================================== 
+2023-07-17 23:04:19,126 INFO  [Log] -----------*<( My test ends here  )>*----------- 
+2023-07-17 23:04:19,126 INFO  [Log] -----------*<( The End of Test Case  )>*----------- 
+2023-07-17 23:04:19,126 INFO  [Log] ======================================================================================== 
+2023-07-17 23:04:19,126 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:04:19,126 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:04:19,126 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:04:49,797 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:04:49,797 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:04:49,797 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:04:49,797 INFO  [Log] ======================================================================================== 
+2023-07-17 23:04:49,797 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-17 23:04:49,797 INFO  [Log] ======================================================================================== 
+2023-07-17 23:04:49,964 INFO  [Log] Username has been entered 
+2023-07-17 23:04:50,112 INFO  [Log] Password has been entered 
+2023-07-17 23:04:51,923 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:04:51,923 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:04:51,923 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:04:51,923 INFO  [Log] ======================================================================================== 
+2023-07-17 23:04:51,923 INFO  [Log] -----------*<( Start test case for Search Employee  )>*----------- 
+2023-07-17 23:04:51,923 INFO  [Log] ======================================================================================== 
+2023-07-17 23:05:05,608 INFO  [Log] Admin navigates to Employee List 
+2023-07-17 23:05:06,355 INFO  [Log] Admin search an employee by id 
+2023-07-17 23:05:11,796 INFO  [Log] Admin clicks on search button 
+2023-07-17 23:05:15,994 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:05:15,994 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:05:15,994 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:05:15,994 INFO  [Log] ======================================================================================== 
+2023-07-17 23:05:15,995 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-17 23:05:15,995 INFO  [Log] ======================================================================================== 
+2023-07-17 23:05:16,159 INFO  [Log] Username has been entered 
+2023-07-17 23:05:16,321 INFO  [Log] Password has been entered 
+2023-07-17 23:05:18,132 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:05:18,133 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:05:18,133 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:05:18,133 INFO  [Log] ======================================================================================== 
+2023-07-17 23:05:18,133 INFO  [Log] -----------*<( Start test case for Search Employee  )>*----------- 
+2023-07-17 23:05:18,164 INFO  [Log] ======================================================================================== 
+2023-07-17 23:05:31,595 INFO  [Log] Admin navigates to Employee List 
+2023-07-17 23:05:32,362 INFO  [Log] Admin search an employee by an invalid id 
+2023-07-17 23:05:38,005 INFO  [Log] Admin clicks on search button 
+2023-07-17 23:05:38,047 INFO  [Log] Admin request for a 'no records found' message 
+2023-07-17 23:06:02,531 INFO  [Log] XXXXXXXXXXX 
+2023-07-17 23:06:02,531 INFO  [Log] XXXXXXXXXXXXXXXX 
+2023-07-17 23:06:02,531 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXX 
+2023-07-17 23:06:02,531 INFO  [Log] ======================================================================================== 
+2023-07-17 23:06:02,531 INFO  [Log] -----------*<( My test starts here  )>*----------- 
+2023-07-17 23:06:02,531 INFO  [Log] ======================================================================================== 
+2023-07-17 23:06:02,707 INFO  [Log] Username has been entered 
+2023-07-17 23:06:02,860 INFO  [Log] Password has been entered 

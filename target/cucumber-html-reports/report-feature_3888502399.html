@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports (no 1) - Feature: Login scenario</title>
+<title>Cucumber Reports (no 1) - Feature: Employee termination</title>
 
 </head>
 <body>
@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>GroupProjectB16</td>
         <td>1</td>
-      <td>14 Jul 2023, 21:30</td>
+      <td>17 Jul 2023, 20:12</td>
     </tr>
   </tbody>
 </table>
@@ -128,19 +128,19 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">Login scenario</td>
-          <td      class="passed"    >3</td>
+          <td class="tagname">Employee termination</td>
+          <td      class="passed"    >8</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">3</td>
+          <td class="total">8</td>
 
           <td  class="passed"    >1</td>
           <td >0</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="1915677700">1.915</td>
+          <td class="duration" data-value="32133428600">32.133</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -175,7 +175,7 @@ $(document).ready(function() {
 
 <div class="brief passed">
   <span class="keyword indention">Feature</span>
-  <span class="name">Login scenario</span>
+  <span class="name">Employee termination</span>
 
 
 </div>
@@ -188,17 +188,19 @@ $(document).ready(function() {
 
 
 <div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_3282011576.html">@deleteEmployee</a>
 </div>
 
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">32.133</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
 <div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
+  <span class="keyword indention">Scenario</span>
+  <span class="name">As an admin user, I want to have the ability to terminate the employment of specified employees in the system using employee id</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -210,64 +212,8 @@ $(document).ready(function() {
   <div id="element-1" class="collapse collapsable-details ">
 
 
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-2" class="inner-level collapse collapsable-details ">
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_4082898728.html">@login</a>
-</div>
-
-
-  <span class="lead-duration duration">1.915</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-3">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Admin login</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-3" class="collapse collapsable-details ">
-
-
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-4">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -279,13 +225,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-4" class="inner-level collapse collapsable-details ">
+    <div id="before-2" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">steps.Hooks.start()</span>
 
-  <span class="lead-duration duration">2.980</span>
+  <span class="lead-duration duration">3.510</span>
 
           </div>
 
@@ -302,7 +248,7 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -314,7 +260,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-5" class="inner-level collapse collapsable-details ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -322,7 +268,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user enters admin username and password</span>
 
-  <span class="lead-duration duration">0.270</span>
+  <span class="lead-duration duration">0.328</span>
 
 </div>
 
@@ -349,7 +295,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks on login button</span>
 
-  <span class="lead-duration duration">1.644</span>
+  <span class="lead-duration duration">1.747</span>
 
 </div>
 
@@ -396,6 +342,141 @@ $(document).ready(function() {
 
 
       </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">user accesses the list of employees in the system</span>
+
+  <span class="lead-duration duration">13.546</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">select a specified employee from the list</span>
+
+  <span class="lead-duration duration">12.242</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">navigate to the employee's job page</span>
+
+  <span class="lead-duration duration">1.547</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">select the option to terminate the employment of the specified employee</span>
+
+  <span class="lead-duration duration">2.683</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">specified employee is terminated</span>
+
+  <span class="lead-duration duration">0.037</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
   </div>
 </div>
 
@@ -403,7 +484,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-6">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -415,13 +496,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-6" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">steps.Hooks.end(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.471</span>
+  <span class="lead-duration duration">0.568</span>
 
           </div>
 
@@ -432,15 +513,15 @@ $(document).ready(function() {
 
   <div class="embeddings inner-level">
   <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-7" class="collapsable-control">
-      <a>Admin login</a>
-      <a href="embeddings/embedding_-115558173.png" download target="_blank">
+    <div data-toggle="collapse" data-target="#embedding-5" class="collapsable-control">
+      <a>As an admin user, I want to have the ability to terminate the employment of specified employees in the system using employee id</a>
+      <a href="embeddings/embedding_-1482900211.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
-    <div id="embedding-7" class="collapse collapsable-details ">
+    <div id="embedding-5" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_-115558173.png">
+        <img src="embeddings/embedding_-1482900211.png">
       </div>
     </div>
   </div>

@@ -1,6 +1,6 @@
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\pages\EmployeePage.java
+C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\steps\ContactDetailsChangingSteps.java
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\pages\EmployeeSearchPage.java
-C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\steps\ContactDetailsChanging.java
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\pages\AddEmployeePage.java
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\steps\AddMembershipSteps.java
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\pages\AQualificationLanguagePage.java
@@ -11,9 +11,11 @@ C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\steps\AddEmploy
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\pages\DashboardPage.java
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\utils\Log.java
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\runners\RegressionRunner.java
-C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\steps\TerminateEmployees.java
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\pages\PersonalPage.java
+C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\steps\AddMembershipDetailsSteps.java
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\steps\AdminAddLanguageSteps.java
+C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\pages\AddMembershipDetailsPage.java
+C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\steps\TerminateEmployeesSteps.java
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\pages\MembershipsPage.java
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\steps\Hooks.java
 C:\Users\HOME\IdeaProjects\GroupProject\group18B16\src\test\java\pages\LoginPage.java
